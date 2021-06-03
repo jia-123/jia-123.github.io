@@ -18,8 +18,7 @@ jobs:
       # 第一步: 下载源码
       - name: Checkout
         # action 配置详见 https://github.com/actions/checkout
-        uses: actions/checkout@v2.3.4
-        with:
+        uses: actions/checkout@v2.3
           # 如果本项目包含了子模块 (git submodules)，需要将此项设置为 true
           # submodules: true
 
