@@ -234,7 +234,7 @@ Git 和其他版本控制系统如 SVN 的一个不同之处就是有暂存区�
 
 Git 的版本库里存了很多东西，其中最重要的就是称为 stage(或者叫 index)的暂存区，还有 Git 为我们自动创建的第一个分支 `master`，以及指向 master 的一个指针叫 `HEAD`。
 
-![版本库图例](https://mrhope.site/assets/img/git3.086f5ec6.jpg)
+<!-- ![版本库图例](https://mrhope.site/assets/img/git3.086f5ec6.jpg) -->
 
 前面讲了我们把文件往 Git 版本库里添加的时候，提交更改，实际上就是把暂存区的所有内容提交到当前分支。我们创建 Git 版本库时，Git 自动为我们创建了唯一一个 `master` 分支，所以，现在，`git commit` 就是往 master 分支上提交更改。
 
@@ -545,23 +545,23 @@ origin
 
 一开始的时候，`master` 分支是一条线，Git 用 `master` 指向最新的提交，再用 `HEAD` 指向 `master`，就能确定当前分支，以及当前分支的提交点:
 
-<!-- ![branch](D:\前端学习\branch.png) -->
+![branch](./assets/branch.png)
 
 每次提交，`master` 分支都会向前移动一步，这样，随着您不断提交，`master` 分支的线也越来越长:
 
 当我们创建新的分支，例如 dev 时，Git 新建了一个指针叫 `dev`，指向 `master` 相同的提交，再把 `HEAD` 指向 `dev`，就表示当前分支在 dev 上:
 
-<!-- ![dev](D:\前端学习\Dev.png) -->
+![dev](./assets/Dev.png)
 
 您看，Git 创建一个分支很快，因为除了增加一个 `dev` 指针，改改 `HEAD` 的指向，工作区的文件都没有任何变化!
 
 不过，从现在开始，对工作区的修改和提交就是针对 dev 分支了，比如新提交一次后，`dev` 指针往前移动一步，而 `master` 指针不变:
 
-<!-- <img src="D:\前端学习\newDev.png" alt="newDev"  /> -->
+<img src="./assets/newDev.png" alt="newDev"  />
 
 假如我们在 dev 上的工作完成了，就可以把 dev 合并到 master 上。Git 怎么合并呢? 最简单的方法，就是直接把 master 指向 dev 的当前提交，就完成了合并:
 
-<!-- ![1](D:\前端学习\1.png) -->
+![1](./assets/1.png)
 
 所以 Git 合并分支也很快! 就改改指针，工作区内容也不变!
 
