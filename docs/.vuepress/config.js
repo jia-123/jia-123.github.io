@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "东师",
-  description: "brief jia",
+  title: "jia-123",
+  description: "Never say die.",
 
   dest: "./dist",
 
