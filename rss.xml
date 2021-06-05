@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://jia-123.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-    <title>东师</title>
+    <title>jia-123</title>
     <link>https://jia-123.github.io/</link>
-    <description>brief jia</description>
+    <description>Never say die.</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 03 Jun 2021 11:57:13 GMT</pubDate>
-    <lastBuildDate>Thu, 03 Jun 2021 11:57:13 GMT</lastBuildDate>
+    <pubDate>Sat, 05 Jun 2021 12:54:07 GMT</pubDate>
+    <lastBuildDate>Sat, 05 Jun 2021 12:54:07 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by jia-123</copyright>
@@ -17,7 +17,7 @@
       <link>https://jia-123.github.io/Git/</link>
       <guid>https://jia-123.github.io/Git/</guid>
       <source url="https://jia-123.github.io/rss.xml">Git介绍</source>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="git介绍"> Git介绍</h1>
 <p>版本控制系统</p>
 <p>本地版本控制系统-&gt;集中化的版本控制系统-&gt;分布式的版本控制系统(Git是分布式的版本控制系统)</p>
@@ -912,6 +912,117 @@ doc/**/*.pdf
       <enclosure url="https://mrhope.site/assets/img/git3.086f5ec6.jpg" type="image/jpeg"/>
     </item>
     <item>
+      <title>关于博客</title>
+      <link>https://jia-123.github.io/aboutblog/</link>
+      <guid>https://jia-123.github.io/aboutblog/</guid>
+      <source url="https://jia-123.github.io/rss.xml">关于博客</source>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="关于博客"> 关于博客</h1>
+<p>网站使用<a href="https://v1.vuepress.vuejs.org/zh/guide/" target="_blank" rel="noopener noreferrer">Vuepress</a>建站工具构建，使用主题<a href="https://github.com/Mister-Hope/vuepress-theme-hope/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>.</p>
+<h2 id="仓库链接"> 仓库链接</h2>
+<ul>
+<li><a href="https://github.com/jia-123/jia-123.github.io" target="_blank" rel="noopener noreferrer">jia-123的个人博客仓库</a></li>
+</ul>
+<h2 id="免责声明"> 免责声明</h2>
+<p>此博客包含<a href="https://github.com/ruanyf" target="_blank" rel="noopener noreferrer">阮一峰</a>和<a href="https://weibo.com/liaoxuefeng" target="_blank" rel="noopener noreferrer">廖雪峰</a>两位老师的博客和书籍。</p>
+<p>在这里给他们致以诚挚的感谢。</p>
+<h2 id="特别鸣谢"> 特别鸣谢</h2>
+<p>此博客是在<a href="https://mrhope.site/" target="_blank" rel="noopener noreferrer">Mr.Hope学长</a>的手把手帮助下花了一个下午的时间一点点建立起来的。我的前端就是在学长自己的博客上学习的。非常感谢我的领路人，他是一位非常优秀的学长。可以去他的[github主页]一探究竟哦。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>前端入门</title>
+      <link>https://jia-123.github.io/frontend/</link>
+      <guid>https://jia-123.github.io/frontend/</guid>
+      <source url="https://jia-123.github.io/rss.xml">前端入门</source>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="前端入门"> 前端入门</h1>
+<p>网页需要三件套: HTML、CSS 和 JavaScript。</p>
+<ul>
+<li>HTML 定义了网页的内容</li>
+<li>CSS 描述了网页的样式</li>
+<li>JavaScript 编写网页的行为</li>
+</ul>
+<div><p>提示</p>
+<p>一个大型的网站，很少是直接使用原生代码写的。</p>
+<p>最新的网站大多数都是用三大框架(<a href="https://mrhope.site/code/website/#Angular" target="_blank" rel="noopener noreferrer">Angular</a>、<a href="https://mrhope.site/code/website/#React" target="_blank" rel="noopener noreferrer">React</a>、<a href="https://mrhope.site/code/website/#Vue" target="_blank" rel="noopener noreferrer">Vue</a>)搭建，并引入npm上的UI库编写而成。</p>
+<p>稍微老的网站会使用其他框架作为辅助，比如<a href="https://mrhope.site/code/website/#Bootstrap4" target="_blank" rel="noopener noreferrer">Bootstrap</a>、<a href="https://mrhope.site/code/website/#jQuery" target="_blank" rel="noopener noreferrer">jQuery</a>等。</p>
+</div>
+<div><p>网页标准制定</p>
+<p>互联网网页标准由 W3C 组织制定，它的全称是万维网联盟组织。</p>
+</div>
+<h2 id="html"> HTML</h2>
+<p>HTML 指的是超文本标记语言 (Hyper Text Markup Language)，描述了网页的骨架(具体结构)。</p>
+<ul>
+<li><a href="./html">HTML教程</a></li>
+</ul>
+<h2 id="css"> CSS</h2>
+<p>CSS指层叠样式表 (Cascading Style Sheets)，声明了网页的样式(具体布局)。</p>
+<ul>
+<li><a href="./css">CSS教程</a></li>
+</ul>
+<h2 id="emmet"> Emmet</h2>
+<p>Emmet是一种快速输入HTML和CSS的语法。</p>
+<ul>
+<li><a href="./ement">Ement用法介绍</a></li>
+</ul>
+<h2 id="javascript"> JavaScript</h2>
+<p>JavaScript 是一种编程语言，声明了网页的交互逻辑。</p>
+<p>JavaScript 是一种轻量级的编程语言，为可插入 HTML 页面的编程代码。所有现代的 HTML 页面都使用 JavaScript。</p>
+<ul>
+<li><a href="./js">JS教程</a></li>
+</ul>
+<h2 id="typescript"> TypeScript</h2>
+<p>TypeScript 是 JavaScript 的一个超集，使得 JS 变成了一种强定义语言。TypeScript 由于其诸多优良特性，目前在前端的份额越来越大。</p>
+<ul>
+<li><a href="./typescript">TypeScript教程</a></li>
+</ul>
+<h2 id="node-js"> Node.js</h2>
+<p>在深入了解并进行前端开发后，就避不开 Node。</p>
+<p>Node.js 是一款全球使用广泛的框架，可以用在前端与后端上，拥有大量的模块。Node.js 主要以其丰富并及其容易导入的 Node.js package，以及其方便管理 npm (Node.js Package Manager)闻名。</p>
+<ul>
+<li><a href="./nodejs.html">Node.js教程</a></li>
+</ul>
+<h2 id="历史前端框架"> 历史前端框架</h2>
+<h3 id="jquery"> jQuery</h3>
+<p>jQuery 是一个 JavaScript 库，极大地简化了 JavaScript 编程，很容易学习。</p>
+<p>jQuery 的优势在于它能够在互联网发展早期兼容各式各样的浏览器，并轻松的选定与操作 DOM。</p>
+<p>由于 NVVM 的兴起，目前 jQuery 已逐步被前端三大框架所取代。</p>
+<ul>
+<li><a href="https://mrhope.site/code/website/jQuery/" target="_blank" rel="noopener noreferrer">jQuery教程</a></li>
+<li><a href="http://www.w3school.com.cn/jquery/index.asp" target="_blank" rel="noopener noreferrer">W3School</a></li>
+<li><a href="https://www.runoob.com/jquery/jquery-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></li>
+</ul>
+<h3 id="bootstrap4"> Bootstrap4</h3>
+<p>Bootstrap 是全球最受欢迎的前端组件库，用于开发响应式布局、移动设备优先的 WEB 项目。</p>
+<p>Bootstrap 是一套用于 HTML、CSS 和 JS 开发的开源工具集。利用提供的 Sass 变量和大量 mixin、响应式栅格系统、可扩展的预制组件、基于 jQuery 的强大的插件系统，能够快速为您的想法开发出原型或者构建整个 app 。</p>
+<ul>
+<li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="_blank" rel="noopener noreferrer">bootstrap 官方文档</a></li>
+<li><a href="https://v4.bootcss.com/docs/4.0/getting-started/introduction/" target="_blank" rel="noopener noreferrer">bootstrap 4.0 中文文档</a></li>
+</ul>
+<h2 id="现代前端框架"> 现代前端框架</h2>
+<h3 id="vue"> Vue</h3>
+<p>Vue 是一套轻量化的前端渐进式框架框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。</p>
+<p>Vue 与 React、Angular 一起合称前端三大框架。</p>
+<ul>
+<li><a href="./vue">Vue学习教程</a></li>
+<li><a href="https://cn.vuejs.org/v2/guide/" target="_blank" rel="noopener noreferrer">Vue官方文档</a></li>
+</ul>
+<h3 id="react"> React</h3>
+<ul>
+<li><a href="https://mrhope.site/code/react/" target="_blank" rel="noopener noreferrer">React教程</a></li>
+</ul>
+<h3 id="angular"> Angular</h3>
+<ul>
+<li><a href="https://mrhope.site/code/angular/" target="_blank" rel="noopener noreferrer">Angular</a></li>
+</ul>
+<h2 id="其他文档"> 其他文档</h2>
+<ul>
+<li><a href="https://mrhope.site/code/website/https.html" target="_blank" rel="noopener noreferrer">HTTPS介绍</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>组件禁用</title>
       <link>https://jia-123.github.io/guide/disable/</link>
       <guid>https://jia-123.github.io/guide/disable/</guid>
@@ -919,7 +1030,7 @@ doc/**/*.pdf
       <description>&amp;lt;p&amp;gt;你可以通过设置页面的 Frontmatter，在页面禁用一些功能。&amp;lt;/p&amp;gt;
 </description>
       <category>使用指南</category>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>
 
 <p>本页面应当禁用了:</p>
@@ -938,7 +1049,7 @@ doc/**/*.pdf
       <guid>https://jia-123.github.io/guide/encrypt/</guid>
       <source url="https://jia-123.github.io/rss.xml">密码加密的文章</source>
       <category>使用指南</category>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="密码加密的文章"> 密码加密的文章</h1>
 <p>实际的文章内容。</p>
 <p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
@@ -953,7 +1064,7 @@ doc/**/*.pdf
       <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/md-enhance&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;md-enhance&amp;lt;/a&amp;gt;，在 Markdown 中启用了更多的语法与新功能。&amp;lt;/p&amp;gt;
 </description>
       <category>使用指南</category>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 
 <h2 id="一键启用"> 一键启用</h2>
@@ -1470,7 +1581,7 @@ $$
       <guid>https://jia-123.github.io/guide/</guid>
       <source url="https://jia-123.github.io/rss.xml">主要功能与配置演示</source>
       <category>使用指南</category>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="主要功能与配置演示"> 主要功能与配置演示</h1>
 <ul>
 <li>
@@ -1493,7 +1604,7 @@ $$
       <link>https://jia-123.github.io/home/</link>
       <guid>https://jia-123.github.io/home/</guid>
       <source url="https://jia-123.github.io/rss.xml">项目主页</source>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>这是普通主页的案例。你可以在这里放置你的主体内容。</p>
 <p>配置项的相关说明请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">首页布局配置</a>。</p>
 ]]></content:encoded>
@@ -1503,7 +1614,7 @@ $$
       <link>https://jia-123.github.io/layout/</link>
       <guid>https://jia-123.github.io/layout/</guid>
       <source url="https://jia-123.github.io/rss.xml">自定义布局</source>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<template #page-top><p>页面顶部内容</p>
 </template><template #page-bottom><p>页面底部内容</p>
 </template><template #content-top><p>内容顶部内容</p>
@@ -1522,7 +1633,7 @@ $$
       <link>https://jia-123.github.io/</link>
       <guid>https://jia-123.github.io/</guid>
       <source url="https://jia-123.github.io/rss.xml">博客主页</source>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[<p>相关配置文档请见 <a href="https://vuepress-theme-hope.github.io/zh/guide/layout/blog/" target="_blank" rel="noopener noreferrer">博客主页</a></p>
 ]]></content:encoded>
     </item>
@@ -1531,10 +1642,24 @@ $$
       <link>https://jia-123.github.io/slides/</link>
       <guid>https://jia-123.github.io/slides/</guid>
       <source url="https://jia-123.github.io/rss.xml">幻灯片页</source>
-      <pubDate>Thu, 03 Jun 2021 11:56:08 GMT</pubDate>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
       <content:encoded><![CDATA[
 <i>Not supported content</i>]]></content:encoded>
       <enclosure url="https://jia-123.github.io/logo.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>软件教程</title>
+      <link>https://jia-123.github.io/sofewear/appsuse/</link>
+      <guid>https://jia-123.github.io/sofewear/appsuse/</guid>
+      <source url="https://jia-123.github.io/rss.xml">软件教程</source>
+      <pubDate>Sat, 05 Jun 2021 12:53:31 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="软件教程"> 软件教程</h1>
+<h2 id="团队协作"> 团队协作</h2>
+<p>开发项目的代码版本管理以及多人协作使用 Git 软件</p>
+<ul>
+<li><a href="./Git">Git教程</a></li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
